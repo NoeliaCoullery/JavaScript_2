@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    font-style: normal;
+    font-size:xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #df3a4b;
+    margin-bottom: 2rem;
+    text-align: center;
+    background-color: #f5d8b8;
+    
+}
+
+.subtitulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:x-large;
+    font-style: italic;
+    margin-top: 3rem;
+    text-decoration: underline dotted;
+    margin-left: 2rem;
+}
+
+.datos{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 2rem;
+    
+}
+
+#botonEnviar, #botonEnviarInicio{
+    color: rgb(23, 101, 91);
+    font-family:monospace;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+    margin-left: 2rem;
+
+}
+#botonEnviar:hover, #botonEnviarInicio:hover{
+    transform: scale(1.1);
+}
