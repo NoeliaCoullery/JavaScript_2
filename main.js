@@ -1,7 +1,9 @@
+//Eventos
 
 let botonEnviar = document.getElementById("botonEnviar");
 botonEnviar.addEventListener("click", registrarUsuario);
 
+//Funcion de registro de usuario
 function registrarUsuario(){
     const formulario = document.getElementById("formularioRegistro")
 
@@ -18,7 +20,7 @@ const datosJson = JSON.stringify(datosDelUsuario);
 localStorage.setItem("datosUsuario", datosJson);
 
 }
-
+//Cargar datos del localstorage
 function cargarFormulario (){
     const formulario = document.getElementById("formularioRegistro");
     const datosJson = localStorage.getItem("datosUsuario");
@@ -35,6 +37,7 @@ const datosDelUsuario = JSON.parse(datosJson)
 let botonEnviarInicio = document.getElementById("botonEnviarInicio");
 botonEnviarInicio.addEventListener("click", iniciarSesion);
 
+//Funcion de inicio de sesion
 function iniciarSesion(){
     const formularioInicio = document.getElementById("formularioInicio");
 
