@@ -6,7 +6,7 @@
     <title>DecoHome</title>
 
 <!--Vinculacion CSS-->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     
@@ -23,32 +23,17 @@
         <input type="text" id="apellido" name="apellido" required><br>
 
         <label for="email" class="datos">Ingresá tu correo electrónico</label>
-        <input type="text" id="email" name="email"><br>
+        <input type="email" id="email" name="email"><br>
 
         <label for="password" class="datos">Creá tu contraseña</label>
         <input type="password" id="password" name="password" required><br>  
     </form>
-        <button id="botonEnviar">Registrarme</button>
+        <button type = "submit" id="botonEnviar">Registrarme</button>
 
-<!--Formulario de inicio de sesion-->
-
-<h2 class="subtitulo">Iniciá sesión</h2>
-<form id ="formularioInicio">
-    <label for="nombreInicio" class="datos">Ingresá tu nombre</label>
-    <input type="text" id="nombreInicio" name="nombreInicio" required> <br>
-
-    <label for="apellidoInicio" class="datos">Ingresá tu apellido</label>
-    <input type="text" id="apellidoInicio" name="apellidoInicio" required><br>
-
-    <label for="emailInicio" class="datos">Ingresá tu correo electrónico</label>
-    <input type="text" id="emailInicio" name="emailInicio" required autocomplete="username"><br>
-
-    <label for="passwordInicio" class="datos">Ingresá tu contraseña</label>
-    <input type="password" id="passwordInicio" name="passwordInicio" required autocomplete="current-password"><br>  
-</form>
-    <button id="botonEnviarInicio">Iniciar sesión</button>
-
+        <a href="./pages/iniciar-sesion.html">Ya tengo mi cuenta creada</a>
+<!--Sweet Alert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <!--Vinculación JS-->
-    <script src="main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
